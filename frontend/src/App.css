@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.form__home__container {
+  display: table;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  vertical-align: middle;
+  margin-top: 13%
+}
+.home__container {
+  box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+  width: 50vh;
+  height: 50vh;
+  display: table-cell;
+  vertical-align: middle;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(253, 85, 29, 0.8) 10%, white 60%);
+}
+.card__header {
+  width: 100%;
+}
+.home__header {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.username__input {
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+  border: 0.3px solid grey;
+  background-color: rgb(238, 102, 102, 0.076);
+}
+.home__cta {
+  width: 55%;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgba(253, 85, 29);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px
+}
+.app__container {
+  max-width: 94.5%;
+}
+.chat__sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0 ,0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat__sidebar__inner {
+    position: relative;
+    padding: 32px;
+    width: 450px;
+    height: 50%;
+    max-width: 640px;
+    border-radius: 10px;
+    background-color: rgb(238, 102, 102);
+    border: 0.3px solid rgb(238, 102, 102);
+}
+.chat__sidebar__inner .close__btn {
+  position: absolute;
+  border: none;
+  background: none;
+  color: white;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+.chat {
+  display: table;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+.chat__main {
+  box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+  display: table-cell;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+.chat__header {
+  margin: 10px 0 20px 0;
+  font-size: 20px;
+  color: white;
+}
+.chat__users > * {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+.online__account {
+  width: 200px;
+  background: green;
+  border: 1px solid green;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.chat__mainHeader {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.users__btn {
+  margin-left: 25px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.users__btn:hover { color: rgb(253,86,29) }
+.leaveChat__btn:hover { color: rgb(253,86,29) }
+.leaveChat__btn {
+  width: 20px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  margin-left: 20px;
+}
+.user__sender__name {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 5px
+}
+.message__container {
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(238, 102, 102, 0.076);
+  padding: 20px;
+  overflow-y: scroll;
+}
+.message__container > * {
+  margin-bottom: 10px;
+}
+.chat__footer {
+  padding: 10px;
+  height: 10vh;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(238, 102, 102, 0.076);
+}
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.message {
+  width: 80%;
+  height: 100%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 15px;
+}
+.sendBtn {
+  width: 40px;
+  background-color: rgb(253,86,29);
+  border: 0.5px solid rgb(253,86,29);
+  border-radius: 100%;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+.sendBtn:hover {
+  background-color: rgba(253, 85, 29, 0.795);
+  border: 0.5px solid rgba(253, 85, 29, 0.795);
+}
+
+.message__recipient {
+  background-color: white;
+  max-width: 300px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  width: fit-content;
+  text-align: left;
+}
+.message__sender {
+  background: rgb(253,86,29);
+  background: linear-gradient(90deg, rgba(253,86,29,0.9334916864608076) 22%, rgba(252,176,69,1) 100%);
+  color: white;
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: auto;
+  font-size: 15px;
+  width: fit-content;
+  text-align: left;
+}
+.message__chats > p {
+  font-size: 13px;
+}
+.sender__name {
+  text-align: right;
+}
+.message__status {
+  position: fixed;
+  bottom: 50px;
+  font-size: 13px;
+  font-style: italic;
+}
