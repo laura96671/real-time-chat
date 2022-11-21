@@ -10,6 +10,7 @@ The app built in JavaScript and NodeJS, sends and shows messages instantly witho
 <li> Display of active users
 
 ## Technology Stack
+<li> React
 <li> JavaScript (Socket.IO)
 <li> NodeJS (Express)
 <li> MySQL
